@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- hybris -->
+  <project path="rpm/" name="linusdan/droid-hal-i9100" remote="github2" revision="hybris-14.1" />  
+  <project path="hybris/droid-configs" name="linusdan/droid-config-i9100" remote="github2" revision="hybris-14.1" />
+  <project path="hybris/droid-hal-version-i9100" name="linusdan/droid-hal-version-i9100" remote="github2" revision="hybris-14.1" />
+  
+  <!-- kernel -->
+  <project path="kernel/samsung/smdk4412" name="linusdan/kernel_samsung_smdk4412" remote="gitlab" revision="hybris-14.1"/>
+  
+  <!-- vendor and hardware -->
+  <project path="vendor/samsung" name="linusdan/vendor_samsung" remote="github2" revision="nougat" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github2" revision="cm-14.1"/>
+  
+  <!-- device tree -->
+  <project path="device/samsung/i9100" name="sailfish-i9100/device_samsung_i9100" remote="github2" revision="hybris-14.1"/>  
+  <project path="device/samsung/galaxys2-common" name="sailfish-i9100/device_samsung_galaxys2-common" remote="github2" revision="hybris-14.1"/>
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github2" revision="cm-14.1"/>
+</manifest>
