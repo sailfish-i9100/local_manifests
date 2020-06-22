@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- hybris -->
-  <project path="rpm/" name="sailfish-i9100/droid-hal-i9100" remote="github2" revision="hybris-16.0" />  
-  <project path="hybris/droid-configs" name="sailfish-i9100/droid-config-i9100" remote="github2" revision="hybris-16.0" />
-  <project path="hybris/droid-hal-version-i9100" name="sailfish-i9100/droid-hal-version-i9100" remote="github2" revision="hybris-16.0" />
+  <project path="rpm/" name="sailfish-i9100/droid-hal-i9100" remote="github2" revision="master" />  
+  <project path="hybris/droid-configs" name="sailfish-i9100/droid-config-i9100" remote="github2" revision="master" />
+  <project path="hybris/droid-hal-version-i9100" name="sailfish-i9100/droid-hal-version-i9100" remote="github2" revision="master" />
   
   <!-- kernel -->
   <project path="kernel/samsung/smdk4412" name="linusdan/kernel_samsung_smdk4412" remote="gitlab" revision="hybris-16.0"/>
